@@ -14,7 +14,7 @@ Package.onUse(function (api, where) {
 	api.addFiles('lib/server/zendesk.js', 'server');
 
 	if (api.export) {
-		api.export('Zendesk', ['server']);
+		api.export('zendesk', ['server']);
 	}
 });
 
